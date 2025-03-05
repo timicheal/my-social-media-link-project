@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+}
+
+
+.container{
+    width: 400px;
+    height: 600px;
+    margin-top: 20px;
+    border: 3px solid #323030;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    transition: 0.55s ease-in-out;
+}
+
+.profile-image{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image > img {
+    height: 150px;
+    width: 150px;
+    object-fit: fill;
+    margin-top: 20px;
+    border-radius: 75px;
+    box-shadow: rgb(53, 53, 53) 5px 2px 13px;
+}
+
+.profile-name{
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.developer-location {
+    margin-left: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.role-description{
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+    font-weight: 900;
+    font-size: 11px;
+    transition: 0.15s ease-in-out;
+}
+
+.role-description:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.buttons > a {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: 600;
+    background-color: white;
+    color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    transition: 0.55s ease-out;
+}
+
+.buttons > a:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: solid white 1.5px;
+    box-shadow: rgb(53, 53, 53) 5px 2px 13px;
+}
